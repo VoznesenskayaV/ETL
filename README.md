@@ -61,6 +61,12 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 Данные отобразились в базе
 ![Result](db_data.jpg)
 
+### Проверка на NULL в каждом поле
+![Null](null_check.jpg)
+
+### Проверка пустых строк (для текстовых полей)
+![Empty lines](test2.jpg)
+
 ### Файл трансформации ETL в Spoon
 [Файл_трансформации](lab_01.ktr)
 
