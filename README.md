@@ -34,3 +34,30 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 **Price per Unit** — цена одной единицы продукта.  
 
 **Total Amount** — общая сумма транзакции, отражающая финансовый объём покупки.
+
+
+## 2. Конвейер ETL в Spoon
+
+### Общий вид трансформации
+![Общий вид конвейера](ktr_01.jpg)
+
+### Ключевые шаги
+
+**CSV Input** (чтение данных)  
+![CSV Input](input.jpg)
+
+**String Operations** (очистка данных: trim, lower case для пола)  
+![String Operations](string_operations.jpg)
+
+**Filter Rows** (фильтрация битых и аномальных записей)  
+- Пропускаются только строки с:  
+  - Quantity > 0  
+  - Price per Unit > 0    
+
+![Filter Rows](filter.jpg)
+
+**Table Output** (загрузка в MySQL)    
+
+![Table Output](output.jpg)
+
+---
