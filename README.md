@@ -46,13 +46,9 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 **CSV Input** (чтение данных)  
 ![CSV Input](input.jpg)
 
-**String Operations** (очистка данных: trim, lower case для пола)  
+**String Operations** (очистка данных: trim, lower case для пола, оставляем только числа у customer_id)  
 ![String Operations](string_operations.jpg)
-
-**Filter Rows** (фильтрация битых и аномальных записей)  
-- Пропускаются только строки с:  
-  - Quantity > 0  
-  - Price per Unit > 0    
+**Select Values** (переводим формат в int)   
 
 ![Filter Rows](filter.jpg)
 
