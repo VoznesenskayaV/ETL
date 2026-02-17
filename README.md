@@ -51,7 +51,9 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 ![Select Values](filter.jpg)
 
 **Filter Rows** фильтр
+
 ![Filter](f2.jpg)
+
 
 **Table Output** (загрузка в MySQL)    
 
