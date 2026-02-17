@@ -48,7 +48,10 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 ![String Operations](string_operations.jpg)
 **Select Values** (переводим формат в int)   
 
-![Filter Rows](filter.jpg)
+![Select Values](filter.jpg)
+
+**Filter Rows** фильтр
+![Filter](f2.jpg)
 
 **Table Output** (загрузка в MySQL)    
 
