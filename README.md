@@ -61,3 +61,11 @@ https://www.kaggle.com/datasets/mohammadtalib786/retail-sales-dataset
 ![Table Output](output.jpg)
 
 ---
+### Результат выполнения SELECT:
+Данные отобразились в базе
+![Result](db_data.jpg)
+
+### Файл трансформации ETL в Spoon
+[Файл_трансформации](lab_01.ktr)
+
+
